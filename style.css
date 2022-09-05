@@ -1,0 +1,75 @@
+body {
+  font: 1em "Fira Sans", sans-serif;
+  line-height: 1.5;
+  background-image: url(https://wallpapers-fenix.eu/full/151008/004552733.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.all {
+  display: flex;
+  max-width: 85%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #013220;
+  margin: auto;
+}
+aside {
+  width: 30%;
+  margin: 20px;
+}
+main {
+  margin: 20px;
+}
+h2 {
+  text-align: center;
+}
+.link {
+  line-height: 2;
+}
+a {
+  color: blue;
+  padding: 5px;
+  border: 2px solid blue;
+  border-radius: 15px;
+  background-color: yellow;
+  font-weight: bold;
+}
+.photo {
+  width: 100%;
+  border-radius: 25px;
+}
+.materials {
+  display: flex;
+}
+.abc {
+  margin: 20px 20px 0 5px;
+  line-height: 50px;
+}
+@media (max-width: 768px) {
+  .all {
+    display: block;
+    max-width: 95%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #013220;
+    margin: auto;
+  }
+  aside {
+    width: 90%;
+    margin: 20px;
+    padding-top: 15px;
+  }
+  main {
+    margin: 10px;
+    padding-bottom: 15px;
+  }
+  .edu {
+    font-size: 0.8em;
+  }
+  .plays {
+    font-size: 0.9em;
+  }
+  .open {
+    max-width: 70%;
+  }
+}
